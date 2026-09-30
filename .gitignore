@@ -1,0 +1,27 @@
+# 构建产物与临时目录
+_build/build/
+_build/build_new/
+_build/dist/
+_build/dist_new/
+_build/venv/
+_build/*.pyc
+*.pyc
+__pycache__/
+
+# 可执行文件（建议通过 GitHub Releases 分发）
+*.exe
+
+# 程序运行时输出
+out/
+*.log
+
+# IDE / 系统文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 配置文件（含本地路径等敏感信息）
+pyer6343_config.json
